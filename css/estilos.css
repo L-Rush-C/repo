@@ -19,19 +19,10 @@ body {
     --bs-btn-border-color: var(--sena-verde);
     --bs-btn-hover-color: #ffffff;
     --bs-btn-hover-bg: var(--sena-verde-oscuro);
-    box-shadow: inset -1px -1px 7 px #2c8201;
     --bs-btn-borer-color: var(--sena-verde-oscuro);
     --bs-btn-active-color: #ffffff;
     --bs-btn-active-bg: var(var(--sena-verde-oscuro));
     --bs-btn-active-border-color: var(var(--sena-verde-oscuro));
-}
-
-.btn-sena:hover {
-    box-shadow: inset -1px -1px 5px #215f02;
-}
-
-button {
-    box-shadow: inset 1 1 1 rgba(0, 0, 0, 0.12);
 }
 
 .form-control:focus,
