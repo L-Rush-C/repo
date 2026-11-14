@@ -2,11 +2,15 @@
     --sena-verde: #39a900;
     --sena-verde-oscuro: #2e8700;
     --sena-azul: #00324d;
-    --sider-ancho: 250px
+    --sidebar-ancho: 250px
 }
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+i {
+    color: var(--sena-verde);
 }
 
 .texto-sena {
@@ -19,7 +23,7 @@ body {
     --bs-btn-border-color: var(--sena-verde);
     --bs-btn-hover-color: #ffffff;
     --bs-btn-hover-bg: var(--sena-verde-oscuro);
-    --bs-btn-borer-color: var(--sena-verde-oscuro);
+    --bs-btn-border-hover-color: var(--sena-verde-oscuro);
     --bs-btn-active-color: #ffffff;
     --bs-btn-active-bg: var(var(--sena-verde-oscuro));
     --bs-btn-active-border-color: var(var(--sena-verde-oscuro));
